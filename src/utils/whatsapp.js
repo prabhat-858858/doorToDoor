@@ -3,11 +3,11 @@ export const WHATSAPP_RAW_NUMBER = "919006867370";
 export const EMAIL_ADDRESS = "doorstodoors4@gmail.com";
 
 export const PRESET_MESSAGES = {
-  market: "Hello doorsToDoors, I need help getting something from the market.",
-  delivery: "Hello doorsToDoors, I need a pickup and delivery service.",
-  ride: "Hello doorsToDoors, I need a local ride.",
-  general: "Hello doorsToDoors, I would like to know more about your services.",
-  directHelp: "Hello doorsToDoors, I need some help.",
+  market: "Hello Mangaoo, I need help getting something from the market.",
+  delivery: "Hello Mangaoo, I need a pickup and delivery service.",
+  ride: "Hello Mangaoo, I need a local ride.",
+  general: "Hello Mangaoo, I would like to know more about your services.",
+  directHelp: "Hello Mangaoo, I need some help.",
 };
 
 export function getWhatsAppUrl(text = PRESET_MESSAGES.general) {
@@ -28,7 +28,7 @@ export function formatRequestMessage(formData) {
   } = formData;
 
   const lines = [
-    `👋 *New Service Request - doorsToDoors*`,
+    `👋 *New Service Request - Mangaoo*`,
     `--------------------------------------`,
     `👤 *Name:* ${name.trim()}`,
     `📞 *Phone:* ${phone.trim()}`,
@@ -55,7 +55,7 @@ export function formatRequestMessage(formData) {
   }
 
   lines.push(`--------------------------------------`);
-  lines.push(`Sent via doorsToDoors Website`);
+  lines.push(`Sent via Mangaoo Website`);
 
   return lines.join("\n");
 }
