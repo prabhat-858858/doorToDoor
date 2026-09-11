@@ -45,8 +45,8 @@ export default function Navbar() {
               <ShoppingBag className="w-5.5 h-5.5" />
             </div>
             <div>
-              <span className="text-xl font-extrabold tracking-tight bg-gradient-to-r from-emerald-700 via-teal-700 to-slate-900 bg-clip-text text-transparent">
-                doors<span className="text-emerald-600">To</span>Doors
+              <span className="text-xl font-extrabold tracking-tight bg-gradient-to-r from-emerald-700 via-teal-700 to-slate-900 bg-clip-text text-transparent">Mangaoo
+                {/* doors<span className="text-emerald-600">To</span>Doors */}
               </span>
               <span className="block text-[10px] font-semibold tracking-wider text-emerald-700 uppercase -mt-1">
                 Your Local Market
