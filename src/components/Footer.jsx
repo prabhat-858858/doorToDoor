@@ -19,8 +19,8 @@ export default function Footer() {
               <div className="w-9 h-9 rounded-xl bg-emerald-600 flex items-center justify-center text-white font-bold shadow-md shadow-emerald-600/30">
                 <ShoppingBag className="w-5 h-5" />
               </div>
-              <span className="text-2xl font-black text-white tracking-tight">
-                doors<span className="text-emerald-500">To</span>Doors
+              <span className="text-2xl font-black text-white tracking-tight">Mangaoo
+                {/* doors<span className="text-emerald-500">To</span>Doors */}
               </span>
             </a>
             <p className="text-sm font-semibold text-slate-300 max-w-sm leading-relaxed">
@@ -92,7 +92,7 @@ export default function Footer() {
 
         {/* Bottom copyright row */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-medium text-slate-500">
-          <p>© 2026 doorsToDoors. All rights reserved.</p>
+          <p>© 2026 Mangaoo. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <span className="text-slate-600">Local • Personal • Reliable</span>
             <button
